@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/logo.svg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <title>GO</title>
+</head>
+
+<body class="body">
+    <div class="wrapper">
+        <header>
+            <div class="banner">
+                <div class="text_banner">
+                  <div class="ft__banner">GAME OVER</div>
+                  <div class="st_banner">Новый формат игр и отдыха</div>
+                </div>
+                <div class="image_banner">
+                  <img src="img/bannerImg.png" alt="banner">
+                </div>
+              </div>
+
+    
+            <section id="OurRooms">
+                    <h2>
+                        Наши Залы
+                    </h2>
+
+                    <img class="img_room" src="img/vibes.png" alt="vibes image">
+                    <img class="img_room" src="img/starwars.png" alt="starwars image">
+                    <img class="img_room" src="img/wildwest.png" alt="wildwest image">
+                    <img class="img_room" src="img/neon.png" alt="neon image">
+
+            </section>
+    
+            <section id="book">
+                <h2>
+                    Забронировать
+                </h2>
+    
+                <form action="https://jsonplaceholder.typicode.com/posts"
+                method="post">
+    
+                    <fieldset>
+                        <input type="radio" name="place" value="80svibes">80's vibes
+                        <input type="radio" name="place" value="StarWars">Star Wars
+                        <input type="radio" name="place" value="WildWest">Wild West
+                        <input type="radio" name="place" value="NeonStyle">Neon Style
+                    </fieldset>
+    
+                    <fieldset>
+                        <legend>Собери набор развлечений</legend>
+                        <fieldset>
+                            <legend>Приставка</legend>
+                            <input type="radio" name="GameConsole" value="PlayStation">PlayStation
+                            <input type="radio" name="GameConsole" value="SegaMegaDrive">Sega Mega Drive
+                            <input type="radio" name="GameConsole" value="XBoxOneS ">X-Box One S
+                            <input type="radio" name="GameConsole" value="Dendy">Dendy
+                        </fieldset>
+                        <fieldset>
+                            <legend>Настольные Игры</legend>
+                            <input type="checkbox" name="BoardGames" value="Jenga">Jenga
+                            <input type="checkbox" name="BoardGames" value="Monopoly">Monopoly
+                            <input type="checkbox" name="BoardGames" value="Manchkin">Манчкин
+                            <input type="checkbox" name="BoardGames" value="Alias">Alias
+                        </fieldset> 
+                        <fieldset>
+                            <legend>Дополнительно</legend>
+                            <input type="checkbox" name="Extra" value="karaoke">Караоке
+                            <input type="checkbox" name="Extra" value="VR">VR
+                        </fieldset>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Выбери дату и время</legend>
+                        <label>
+                            Дата*
+                            <input type="date" value="Date" required>
+                        </label>
+                        <label>
+                            Время*
+                            <input type="time" value="Time" required>
+                        </label>
+                        <label>
+                            <br>
+                            Количество Человек*
+                            <input type="number" name="NumberOfPersons" required>
+                        </label>
+                        <label>
+                            <br>
+                            Имя*
+                            <input type="text" name="Name" required>
+                        </label>
+                        <label>
+                            <br>
+                            Фамилия*
+                            <input type="text" name="Surname" required>
+                        </label>
+                        <label>
+                            <br>
+                            Номер Телефона*
+                            <input type="tel" name="Phone" required>
+                        </label>
+                    </fieldset>
+                    <br>
+                    <button>Забронировать</button>
+                    <input type="checkbox" name="POPD">
+                    Соласен на обработку персональных данных
+                </form>
+            </section>
+    
+            <section id="about">
+                <h2>О нас</h2>
+    
+                <p>
+                    Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности  в центральной части города.
+                </p>
+                <p>
+                    Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.
+                </p>
+    
+            
+            </section>
+    
+            <section>
+                <blockquote  id="quote">
+    
+                    <p class="purple-quote">
+                        GAME OVER  - <br> это место незабываемых впечатлений
+                    </p>            
+                </blockquote>
+                <div class="main_person">
+                    <img src="img/Arkadiy Photo.png" alt="Аркадий Абашкин">
+                    <p>
+                        Аркадий Абашкин,<br>создатель игровой<br> территории GAME OVER
+                    </p>
+                </div>
+  
+                
+            </section>
+    
+        </main>
+    
+        <footer>
+            <section class="faq">
+                <h2>
+                    Частые вопросы
+                </h2>
+                <p class="faqQuestions">
+                    Можно ли забронировать комнату онлайн?
+                </p>
+                <p class="faqQuestions">
+                    Могут ли мне вернуть деньги за бронь?
+                </p>
+                <p class="faqQuestions">
+                    Какакя комната самая популярная?
+                </p>
+                <p class="faqQuestions">
+                    Как получить VIP карту?
+                </p>
+                <p class="faqQuestions">
+                    Какая комната самая популярная?
+                </p>
+            </section>  
+            
+            <section>
+                <h2>
+                    Контакты
+                </h2>
+                <div class="contacts">
+                    <div class="contacts_center">
+                        <img src="img/location.svg" alt="Иконка локации">
+                        <div>
+                            г. Москва<br>ул. Аквамарина 16
+                        </div>
+                    </div>
+                    <br>
+                    <div class="contacts_center">
+                        <img src="img/Phone.svg" alt="Иконка телефона">
+                        <div>
+                            8 (950) 930 - 28 - 93
+                        </div>
+                    </div>
+                    <br>
+                    <div class="contacts_center">
+                        <img src="img/mail.svg" alt="Иконка почты">
+                        <div>
+                            GameOver@gmail.com
+                        </div>
+                    </div>
+                    <div class="social_icons">
+                        <img src="img/VKIco.svg" alt="VK Ico">
+                        <img src="img/Telegram.svg" alt="Telegram Ico">
+                        <img src="img/PinterestIco.svg" alt="Pinterest Ico">
+                        <img src="img/SUI.svg" alt="">
+                    </div>
+                </div>
+            </section>
+        </footer>    
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+.faqQuestions {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #1C1A1A;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 30px 70px;
+    margin-bottom: 20px;
+}
+
+.faqQuestions:nth-child(2n+1) {
+    background-color: #440F51;
+    color: #fff;
+}
+
+.faqQuestions:nth-child(even)::after {
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(/img/open-purple.svg);
+    background-size: contain;
+    margin-left: auto;
+    margin-right: 10px; 
+}
+
+.faqQuestions:nth-child(odd)::after {
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(/img/open.svg);
+    background-size: contain;
+    margin-left: auto;
+    margin-right: 10px; 
+}
+
+
